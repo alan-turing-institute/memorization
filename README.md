@@ -1,16 +1,17 @@
-# On Memorization in Probabilistic Deep Generative Models
+# On Memorization in Probabilistic Deep Generative Models (NeurIPS 2021)
 
 This repository contains the code necessary to reproduce the experiments in 
-[On Memorization in Probabilistic Deep Generative Models][arxiv-link]. You can 
-also use this code to measure memorization in other types of probabilistic 
+[On Memorization in Probabilistic Deep Generative Models][neurips-link]. You 
+can also use this code to measure memorization in other types of probabilistic 
 deep generative models. If you use our code in your own work please cite the 
 paper using, for instance, the following BibTeX entry:
 
 ```bibtex
-@article{van2021memorization,
+@inproceedings{van2021memorization,
   title={On Memorization in Probabilistic Deep Generative Models},
   author={{Van den Burg}, G. J. J. and Williams, C. K. I.},
-  journal={arXiv preprint arXiv:2106.03216},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={34},
   year={2021}
 }
 ```
@@ -95,7 +96,7 @@ $ sha256sum --check results.sha256
 
 The code in this repository is licensed under the MIT license. See the 
 [LICENSE file](LICENSE) for further details. Reuse of the code in this 
-repository is allowed, but should cite [our paper][arxiv-link].
+repository is allowed, but should cite [our paper][neurips-link].
 
 ## Notes
 
@@ -103,5 +104,5 @@ If you find any problems or have a suggestion for improvement of this
 repository, please [let me know](mailto:gertjanvandenburg@gmail.com) as it 
 will help make this resource better for everyone. 
 
-[arxiv-link]: https://arxiv.org/abs/2106.03216
+[neurips-link]: https://papers.nips.cc/paper/2021/hash/eae15aabaa768ae4a5993a8a4f4fa6e4-Abstract.html
 [result-link]: https://gertjanvandenburg.com/projects/memorization/results.zip
